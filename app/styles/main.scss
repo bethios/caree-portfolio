@@ -1,3 +1,5 @@
+@import 'variables';
+
 *, *::before, *::after{
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -40,30 +42,19 @@ html{
 }
 
 body{
-    background-image: url(../assets/images/blurred_backgrounds/blur_bg_3.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center;
-    background-size: cover;
     font-family: 'Open Sans';
-    color: white;
-    min-height: 100%;
-    padding-bottom: 200px;
-
+    color: $color3;
+    background-color: $color2;
+    min-height: 90vh;
 }
 
 .navbar{
+    background-image: url("../assets/gray-triangles.jpg");
+    background-size: cover;
     position: relative;
     padding: 0.5rem;
-    background-color: rgb(86, 39, 78);
     z-index: 1;
-    border-bottom: solid dimgray 2px;
-}
-
-.navbar .logo {
-    position: relative;
-    left: 2rem;
-    cursor: pointer;
+    border-bottom: $accent-color;
 }
 
 .navbar .links-container{
@@ -76,6 +67,11 @@ body{
     text-decoration: none;
 }
 
+h1{
+  @include headings;
+  font-size: 4rem;
+}
+
 .links-container .navbar-link{
     display: table-cell;
     position: relative;
@@ -83,7 +79,7 @@ body{
     padding-left: 2rem;
     padding-right: 2rem;
     vertical-align: middle;
-    color: white;
+    color: $color2;
     font-size: 1rem;
     letter-spacing: 0.2rem;
     font-weight: 750;
@@ -93,13 +89,13 @@ body{
 }
 
 .links-container .navbar-link:hover {
-    color: rgb(209,209,209);
+    color: $accent-color;
 }
 
 
 .links-container .navbar-link:active {
     background-color:white;
-    color: rgb(29, 65, 163);
+    color: $accent-color;
 }
 
 

@@ -5,7 +5,7 @@
     }
 
     angular
-        .module('blocJams')
+        .module('CareeDavis')
         .controller('LandingCtrl', LandingCtrl);
 })();
 
