@@ -11,20 +11,25 @@
                 controller: 'LandingCtrl as landing',
                 templateUrl: '/templates/landing.html'
             })
-            .state('album', {
-                url: '/album',
-                controller: 'AlbumCtrl as album',
-                templateUrl: '/templates/album.html'
+            .state('samples', {
+                url: '/samples',
+                controller: 'SamplesCtrl as samples',
+                templateUrl: '/templates/samples.html'
             })
-            .state('collection', {
-                url: '/collection',
-                controller: 'CollectionCtrl as collection',
-                templateUrl: '/templates/collection.html'
+            .state('resume', {
+                url: '/resume',
+                controller: 'ResumeCtrl as resume',
+                templateUrl: '/templates/resume.html'
+            })
+            .state('contact', {
+                url: '/contact',
+                controller: 'ContactCtrl as contact',
+                templateUrl: '/templates/contact.html'
             });
     }
 
-    angular.module('blocJams', ['ui.router']);
+    angular.module('CareeDavis', ['ui.router']);
     angular
-        .module('blocJams', ['ui.router'])
+        .module('CareeDavis', ['ui.router'])
         .config(config);
 })();

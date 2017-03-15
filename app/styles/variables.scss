@@ -1,0 +1,12 @@
+$color1: rgba(10, 18, 42, 1);
+$color2: rgba(56, 78, 119, 1);
+$color3: rgba(202, 210, 212, 1);
+$base-color: rgba(250, 250, 250, 1);
+$accent-color: rgba(231, 90, 124, 1);
+
+@mixin headings {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  color: $accent-color;
+}
+
