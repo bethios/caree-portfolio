@@ -74,10 +74,8 @@ body{
 
 .navbar .links-container{
     display: table;
-    position: absolute;
     padding: 20px;
     float: left;
-    height: 100px;
     color: white;
     text-decoration: none;
 }
@@ -87,10 +85,6 @@ body{
 .links-container .navbar-link{
     display: table-cell;
     position: relative;
-    height: 100%;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    vertical-align: middle;
     color: $color2;
     font-size: 1rem;
     letter-spacing: 0.2rem;
@@ -98,6 +92,9 @@ body{
     text-transform: uppercase;
     text-decoration: none;
     cursor: pointer;
+    padding: 5px 15px ;
+    margin: 10px;
+    display: block;
 }
 
 .links-container .navbar-link:hover {
@@ -107,6 +104,7 @@ body{
 
 .links-container .navbar-link:active {
     background-color:white;
+    border-radius: 5%;
     color: $accent-color;
 }
 

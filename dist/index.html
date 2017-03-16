@@ -20,14 +20,14 @@
     </header>
     <section class="container">
     <nav class="navbar col-sm-4">
-        <div class="links-container">
+        <div class="links-container" ng-controller="LandingCtrl as landing">
             <h2>Portfolio</h2>
-            <h3><a ui-sref="landing" class="navbar-link">About</a></h3>
-            <h3><a ui-sref="samples" class="navbar-link" ng-click="landing.setCategory('film')">Film</a></h3>
-            <h3><a ui-sref="samples" class="navbar-link" ng-click="landing.setCategory('television')">Television</a></h3>
-            <h3><a ui-sref="samples" class="navbar-link" ng-click="landing.setCategory('music')">Music</a></h3>
-            <h3><a ui-sref="resume" class="navbar-link">Resume</a></h3>
-            <h3><a ui-sref="contact" class="navbar-link">Contact</a></h3>
+            <a ui-sref="landing" class="navbar-link">About</a>
+            <a ui-sref="samples" class="navbar-link" ng-click="landing.setCategory('film')">Film</a>
+            <a ui-sref="samples" class="navbar-link" ng-click="landing.setCategory('television')">Television</a>
+            <a ui-sref="samples" class="navbar-link" ng-click="landing.setCategory('music')">Music</a>
+            <a ui-sref="resume" class="navbar-link">Resume</a>
+            <a ui-sref="contact" class="navbar-link">Contact</a>
         </div>
     </nav>
 

@@ -8,6 +8,6 @@
 
     angular
         .module('CareeDavis')
-        .controller('LandingCtrl', 'Fixtures' ,LandingCtrl);
+        .controller('LandingCtrl', ['Fixtures' , LandingCtrl]);
 })();
 

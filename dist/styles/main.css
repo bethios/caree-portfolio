@@ -63,8 +63,8 @@ body {
 .hero-title {
   font-family: 'Ubuntu', sans-serif;
   font-weight: 500;
-  color: #e75a7c;
-  text-shadow: 2px 2px 1px #384e77;
+  color: #384e77;
+  text-shadow: 2px 2px 1px #cad2d4;
   font-size: 4rem;
   display: inline-block;
   padding: 2px;
@@ -75,33 +75,31 @@ body {
 
 .navbar .links-container {
   display: table;
-  position: absolute;
   padding: 20px;
   float: left;
-  height: 100px;
   color: white;
   text-decoration: none; }
 
 .links-container .navbar-link {
   display: table-cell;
   position: relative;
-  height: 100%;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  vertical-align: middle;
   color: #384e77;
   font-size: 1rem;
   letter-spacing: 0.2rem;
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
-  cursor: pointer; }
+  cursor: pointer;
+  padding: 5px 15px;
+  margin: 10px;
+  display: block; }
 
 .links-container .navbar-link:hover {
   color: #e75a7c; }
 
 .links-container .navbar-link:active {
   background-color: white;
+  border-radius: 5%;
   color: #e75a7c; }
 
 video {
