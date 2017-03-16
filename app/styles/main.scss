@@ -13,6 +13,7 @@
         float: left;
         padding-left: 1rem;
         padding-right: 1rem;
+        display: inline-block;
     }
 
     .column.full { width: 100%; }
@@ -49,8 +50,8 @@ body{
 }
 
 .hero{
-  background-image: url("../assets/images/set.jpeg");
-  background-position: center center;
+  background-image: url("../assets/images/christian-joudrey-65080.jpg");
+  background-position: 100%;
   background-size: cover;
   position: relative;
   padding: 0.5rem;
@@ -93,7 +94,7 @@ body{
     color: $color2;
     font-size: 1rem;
     letter-spacing: 0.2rem;
-    font-weight: 750;
+    font-weight: 700;
     text-transform: uppercase;
     text-decoration: none;
     cursor: pointer;
@@ -109,7 +110,14 @@ body{
     color: $accent-color;
 }
 
+video{
+  width: 80%;
+  height: auto;
+}
 
+p{
+  text-align: justify;
+}
 .clearfix::before,
 .clearfix::after{
     content: " ";
