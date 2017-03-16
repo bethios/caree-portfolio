@@ -2,6 +2,7 @@
     function Fixtures() {
         var Fixtures = {};
 
+        Fixtures.currentCategory = null;
 
         return Fixtures;
     }

@@ -43,34 +43,45 @@ html{
 
 body{
     font-family: 'Open Sans';
-    color: $color3;
-    background-color: $color2;
+    color: $color2;
+    background-color: $color3;
     min-height: 90vh;
 }
 
-.navbar{
-    background-image: url("../assets/gray-triangles.jpg");
-    background-size: cover;
-    position: relative;
-    padding: 0.5rem;
-    z-index: 1;
-    border-bottom: $accent-color;
+.hero{
+  background-image: url("../assets/images/set.jpeg");
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  padding: 0.5rem;
+  border-bottom: $accent-color;
+  height: 50vh;
+  line-height: 33vh;
+}
+
+
+.hero-title{
+  @include headings;
+  font-size: 4rem;
+  display: inline-block;
+  padding: 2px;
+  margin: auto;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 4rem;
 }
 
 .navbar .links-container{
     display: table;
     position: absolute;
-    top: 0;
-    right: 0;
+    padding: 20px;
+    float: left;
     height: 100px;
     color: white;
     text-decoration: none;
 }
 
-h1{
-  @include headings;
-  font-size: 4rem;
-}
+
 
 .links-container .navbar-link{
     display: table-cell;

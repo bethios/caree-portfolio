@@ -14,20 +14,27 @@
     <link rel="stylesheet" type="text/css" href="../styles/contact.css">
 </head>
 <body>
-    <nav class="navbar">
-        <h1>Caree Davis</h1>
+    <header class="hero">
+        <span><h1 class="hero-title">Caree Davis</h1></span>
+    </header>
+    <section>
+    <nav class="navbar column third">
         <div class="links-container">
-            <a ui-sref="samples" class="navbar-link">Samples</a>
-            <a ui-sref="resume" class="navbar-link">Resume</a>
-            <a ui-sref="contact" class="navbar-link">Contact</a>
+            <h2>Portfolio</h2>
+            <h3><a ui-sref="landing" class="navbar-link">About</a></h3>
+            <h3><a ui-sref="samples" class="navbar-link" ng-click="landing.setCategory('film')">Film</a></h3>
+            <h3><a ui-sref="samples" class="navbar-link" ng-click="landing.setCategory('television')">Television</a></h3>
+            <h3><a ui-sref="samples" class="navbar-link" ng-click="landing.setCategory('music')">Music</a></h3>
+            <h3><a ui-sref="resume" class="navbar-link">Resume</a></h3>
+            <h3><a ui-sref="contact" class="navbar-link">Contact</a></h3>
         </div>
     </nav>
 
-    <ui-view></ui-view>
+    <div class="column two-thirds">
+        <ui-view></ui-view>
+    </div>
 
-    <footer>
-        <a ui-sref="contact" class="navbar-link">Contact</a>
-    </footer>
+    </section>
 
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>

@@ -1,11 +1,13 @@
 (function() {
-    function LandingCtrl() {
-        this.heroTitle = "Turn the Music Up!";
-
+    function LandingCtrl(Fixtures) {
+        this.setCategory = function(selection) {
+            Fixtures.currentCategory = selection;
+            console.log(Fixtures.currentCategory)
+        }
     }
 
     angular
         .module('CareeDavis')
-        .controller('LandingCtrl', LandingCtrl);
+        .controller('LandingCtrl', 'Fixtures' ,LandingCtrl);
 })();
 
