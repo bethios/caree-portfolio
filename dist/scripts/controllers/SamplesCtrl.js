@@ -1,6 +1,7 @@
 (function() {
     function SamplesCtrl(Fixtures) {
 
+        this.clips=Fixtures.films;
     }
 
     angular

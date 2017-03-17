@@ -118,14 +118,16 @@ body {
 
 .video-view {
   width: 100%;
-  height: auto;
+  height: 300px;
   left: 0;
   display: block; }
 
 .wrapper {
   padding: 10px;
   background-color: #fafafa;
-  border: solid #e75a7c 1px; }
+  border: solid #e75a7c 1px;
+  min-height: 432px;
+  margin: 10px; }
 
 .wrapper p {
   text-align: center;

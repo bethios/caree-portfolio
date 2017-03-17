@@ -112,11 +112,12 @@ body{
 
 .video-tiles{
   position:relative;
+
 }
 
 .video-view{
   width:100%;
-  height:auto;
+  height:300px;
   left:0;
   display: block;
 }
@@ -125,6 +126,8 @@ body{
   padding: 10px;
   background-color: $base-color;
   border: solid $accent-color 1px;
+  min-height: 432px;
+  margin: 10px;
 }
 
 .wrapper p{

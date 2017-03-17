@@ -1,7 +1,11 @@
-<div class="wrapper">
-    <div class="video-tiles">
-    <iframe class='video-view' width="100%" height="360" src="https://www.youtube.com/embed/ixZIt8sJRQ4?ecver=2" allowfullscreen>
-    </iframe>
+<div class="container">
+    <div class="row">
+        <div class="wrapper col-sm-4" ng-repeat="clip in samples.clips" >
+            <div class="video-tiles">
+                <iframe class='video-view' src="{{clip.link}}" allowfullscreen>
+                </iframe>
+            </div>
+            <p class="video-desc" >{{clip.description}}</p>
+        </div>
     </div>
-    <p class="video-desc" >Produced Marketing and Next Generation App Content for Director Jordan Vogt-Roberts debut #1 feature film</p>
 </div>
