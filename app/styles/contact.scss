@@ -1,0 +1,22 @@
+@import 'variables';
+
+.linkedIn{
+  height: 2rem;
+  width: auto;
+
+}
+
+.link-list{
+  display: inline;
+  float: left;
+  padding: 10px;
+  vertical-align: bottom;
+
+}
+
+
+i{
+  font-size: 3rem;
+  color: $color2;
+}
+

@@ -35,7 +35,8 @@
     font-size: 120%; } }
 .container {
   margin: 0 auto;
-  max-width: 64rem; }
+  max-width: 64rem;
+  padding: 20px; }
 
 .container.narrow {
   max-width: 56rem; }
@@ -76,7 +77,6 @@ body {
 
 .navbar .links-container {
   display: table;
-  padding: 20px;
   float: left;
   color: white;
   text-decoration: none; }

@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAEA,YAAY;EACR,gBAAgB,ECFX,OAAoB",
-"sources": ["resume.scss","variables.scss"],
+"mappings": "",
+"sources": [],
 "names": [],
 "file": "resume.css"
 }
