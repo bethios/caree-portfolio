@@ -50,7 +50,7 @@ body{
 }
 
 .hero{
-  background-image: url("../assets/images/christian-joudrey-65080.jpg");
+  background-image: url("../assets/images/soundstageBW.jpg");
   background-position: 100%;
   background-size: cover;
   position: relative;
@@ -66,6 +66,7 @@ body{
   font-size: 4rem;
   display: inline-block;
   padding: 2px;
+  width: 100%;
   margin: auto;
   text-align: center;
   vertical-align: middle;
@@ -115,6 +116,7 @@ video{
 
 p{
   text-align: justify;
+  width: 80%;
 }
 .clearfix::before,
 .clearfix::after{

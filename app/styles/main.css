@@ -51,7 +51,7 @@ body {
   min-height: 90vh; }
 
 .hero {
-  background-image: url("../assets/images/christian-joudrey-65080.jpg");
+  background-image: url("../assets/images/soundstageBW.jpg");
   background-position: 100%;
   background-size: cover;
   position: relative;
@@ -63,11 +63,12 @@ body {
 .hero-title {
   font-family: 'Ubuntu', sans-serif;
   font-weight: 500;
-  color: #384e77;
-  text-shadow: 2px 2px 1px #cad2d4;
+  color: #e75a7c;
+  text-shadow: 2px 2px 1px #384e77;
   font-size: 4rem;
   display: inline-block;
   padding: 2px;
+  width: 100%;
   margin: auto;
   text-align: center;
   vertical-align: middle;
@@ -107,7 +108,8 @@ video {
   height: auto; }
 
 p {
-  text-align: justify; }
+  text-align: justify;
+  width: 80%; }
 
 .clearfix::before,
 .clearfix::after {
