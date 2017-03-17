@@ -109,7 +109,8 @@ video {
 
 p {
   text-align: justify;
-  width: 80%; }
+  width: 80%;
+  display: inline-block; }
 
 .clearfix::before,
 .clearfix::after {
