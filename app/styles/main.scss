@@ -58,20 +58,22 @@ body{
   padding: 0.5rem;
   border-bottom: $accent-color;
   height: 50vh;
-  line-height: 33vh;
 }
 
 
 .hero-title{
   @include headings;
-  font-size: 4rem;
-  display: inline-block;
-  padding: 2px;
-  width: 100%;
-  margin: auto;
-  text-align: center;
-  vertical-align: middle;
-  line-height: 4rem;
+  font-size: 6rem;
+  color: $accent-color;
+  text-shadow: 2px 2px 1px $color2;
+  padding-top: 10vh;
+}
+
+.hero-subtitle{
+  @include headings;
+  font-size: 3rem;
+  color: $color3;
+  text-shadow: 2px 2px 1px $accent-color;
 }
 
 .navbar .links-container{
@@ -107,16 +109,29 @@ body{
     color: $accent-color;
 }
 
-video{
-  width: 80%;
-  height: auto;
+
+.video-tiles{
+  position:relative;
 }
 
-p{
-  text-align: justify;
-  width: 80%;
-  display: inline-block;
+.video-view{
+  width:100%;
+  height:auto;
+  left:0;
+  display: block;
 }
+
+.wrapper{
+  padding: 10px;
+  background-color: $base-color;
+  border: solid $accent-color 1px;
+}
+
+.wrapper p{
+  text-align: center;
+  width: 100%;
+}
+
 .clearfix::before,
 .clearfix::after{
     content: " ";

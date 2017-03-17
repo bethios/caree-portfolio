@@ -2,7 +2,6 @@
 
 .video-tiles{
   position:relative;
-  height:0;
 }
 
 .video-view{
@@ -15,5 +14,10 @@
 .wrapper{
   padding: 10px;
   background-color: $base-color;
-  border: solid $accent-color 2px;
+  border: solid $accent-color 1px;
+}
+
+.wrapper p{
+  text-align: center;
+  width: 100%;
 }

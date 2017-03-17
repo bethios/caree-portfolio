@@ -1,6 +1,5 @@
 .video-tiles {
-  position: relative;
-  height: 0; }
+  position: relative; }
 
 .video-view {
   width: 100%;
@@ -11,6 +10,10 @@
 .wrapper {
   padding: 10px;
   background-color: #fafafa;
-  border: solid #e75a7c 2px; }
+  border: solid #e75a7c 1px; }
+
+.wrapper p {
+  text-align: center;
+  width: 100%; }
 
 /*# sourceMappingURL=samples.css.map */

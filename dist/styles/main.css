@@ -58,22 +58,32 @@ body {
   position: relative;
   padding: 0.5rem;
   border-bottom: #e75a7c;
-  height: 50vh;
-  line-height: 33vh; }
+  height: 50vh; }
 
 .hero-title {
   font-family: 'Ubuntu', sans-serif;
   font-weight: 500;
-  color: #e75a7c;
-  text-shadow: 2px 2px 1px #384e77;
-  font-size: 4rem;
   display: inline-block;
   padding: 2px;
   width: 100%;
   margin: auto;
   text-align: center;
-  vertical-align: middle;
-  line-height: 4rem; }
+  font-size: 6rem;
+  color: #e75a7c;
+  text-shadow: 2px 2px 1px #384e77;
+  padding-top: 10vh; }
+
+.hero-subtitle {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  display: inline-block;
+  padding: 2px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  font-size: 3rem;
+  color: #cad2d4;
+  text-shadow: 2px 2px 1px #e75a7c; }
 
 .navbar .links-container {
   display: table;
@@ -103,14 +113,23 @@ body {
   border-radius: 5%;
   color: #e75a7c; }
 
-video {
-  width: 80%;
-  height: auto; }
+.video-tiles {
+  position: relative; }
 
-p {
-  text-align: justify;
-  width: 80%;
-  display: inline-block; }
+.video-view {
+  width: 100%;
+  height: auto;
+  left: 0;
+  display: block; }
+
+.wrapper {
+  padding: 10px;
+  background-color: #fafafa;
+  border: solid #e75a7c 1px; }
+
+.wrapper p {
+  text-align: center;
+  width: 100%; }
 
 .clearfix::before,
 .clearfix::after {
