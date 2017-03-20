@@ -20,7 +20,7 @@
         <span><h2 class="hero-subtitle" >Producer, Director</h2></span>
     </header>
     <section class="container">
-    <nav class="navbar col-sm-4">
+    <nav class="navbar col-sm-3">
         <div class="links-container" ng-controller="LandingCtrl as landing">
             <h2>Portfolio</h2>
             <a ui-sref="landing" class="navbar-link">About</a>
@@ -32,7 +32,7 @@
         </div>
     </nav>
 
-    <div class="col-sm-8">
+    <div class="col-sm-9">
         <ui-view></ui-view>
     </div>
 
@@ -45,6 +45,6 @@
     <script src="../scripts/services/Fixtures.js"></script>
     <script src="../scripts/controllers/LandingCtrl.js"></script>
     <script src="../scripts/controllers/SamplesCtrl.js"></script>
-
+    <script src="../scripts/filters/trustedLink.js"></script>
 </body>
 </html>

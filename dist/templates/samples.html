@@ -1,8 +1,8 @@
 <div class="container">
     <div class="row">
-        <div class="wrapper col-sm-4" ng-repeat="clip in samples.clips" >
-            <div class="video-tiles">
-                <iframe class='video-view' src="{{clip.link}}" allowfullscreen>
+        <div class="wrapper col-sm-5"  ng-repeat="clip in samples.clips">
+            <div class="video-tiles" >
+                <iframe class='video-view' src="{{clip.link | trustedLink}}" allowfullscreen>
                 </iframe>
             </div>
             <p class="video-desc" >{{clip.description}}</p>
